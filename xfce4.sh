@@ -5,8 +5,7 @@
 apk update
 
 # Installer Xorg
-apk add xorg-server xf86-video-vesa xf86-video-qxl
- || exit
+apk add xorg-server xf86-video-vesa xf86-video-qxl  || exit
 
 
 # Installer Xfce4 og tilknyttede pakker
