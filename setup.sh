@@ -11,4 +11,6 @@ read -n 1 -s -r -p "Tryk på en tast for at fortsætte..."
 echo "Fortsætter nu..."
 
 echo "Installerer micro tmux ranger openssh samba"
-apk add micro tmux ranger openssh samba
+apk add micro tmux ranger openssh samba || exit
+
+
