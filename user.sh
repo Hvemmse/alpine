@@ -15,3 +15,5 @@ echo "live ALL=(ALL) ALL" >> /etc/sudoers
 
 # Vis oprettelsesbekræftelse
 echo "Brugeren 'live' er oprettet med adgangskoden 'live' og har sudo-adgang."
+
+apk add sudo 
