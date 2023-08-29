@@ -1,4 +1,4 @@
-  GNU nano 6.3                                xfce4.sh                                           
+                                      
 #!/bin/bash
 
 # Opdater pakkeindeks
