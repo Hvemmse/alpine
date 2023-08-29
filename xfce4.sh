@@ -8,7 +8,7 @@ apk update
 apk add xorg-server xf86-video-vesa xf86-video-qxl  || exit
 
 setup-xorg-base
-
+apk add alpine-desktop
 
 # Installer Xfce4 og tilknyttede pakker
 apk add xrdp xfce4 xfce4-terminal xfce4-session thunar-volman ttf-dejavu lightdm || exit
